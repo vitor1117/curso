@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #a2a2a2;
+    
+}
+header{
+    background-image: linear-gradient(to right , rgb(255, 255, 255) ,#646464);
+}
+header >h1{
+    
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    color: #5a5959;
+    text-shadow: #4a4a4a 2px 2px 6px;
+    
+    
+}
+.fonte{
+    height: 80px;
+}
+.menu{
+    display: block;
+    background-color:#646464;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.639);
+    
+}
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+    
+}
+a:hover{
+    background-color: #302f2f;
+    color: #c5c2c2;
+}
+.conteiner{
+    background-color: aquamarine;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+.cont2{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    position: relative;
+}
+.cont3{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.516);
+
+}
+.img{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.conteiner >h1 {
+    background-color: #454444;
+    color: #a2a2a2;
+    position: absolute;
+    right: 25%;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    padding: 7px;
+    border-radius: 5px;
+
+
+}
+.conteiner >h2{
+    background-color:#9b9b9b;
+    color: #3e3e3e;
+    position: absolute;
+    padding-right: 7px;
+    padding-left: 7px;
+    right: 20%;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    border-radius: 5px;
+    
+}
+.conteiner >p{
+    display: inline;
+    position: absolute;
+    width: 30%;
+    text-align: justify;
+    background-color:#3e3e3e;
+    color: #c5c2c2;
+    right: 40px;
+    padding: 10px;
+    top: 160px;
+    border-radius: 5px;
+}
+.cont2 > div> h1{
+    display: inline;
+    position: absolute;
+    padding-right: 502px;
+    padding-left: 10px;
+    background-image: linear-gradient( to right,#3e3e3e ,rgb(253, 253, 254));
+    top: 10px;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dadada;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.425);
+}
+.cont2 >div>p{
+    display: inline;
+    background-color:#3e3e3e;
+    color: #c5c2c2;
+    border-radius: 5px;
+    width: 30%;
+    position: absolute;
+    top: 50px;
+    right: 45%;
+    padding: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.511);
+}
+.titulo >h1{
+    background-color: rgb(225, 225, 58);
+    display: inline;
+    position: absolute;
+    left: 10px;
+    padding-right: 728px;
+    padding-left: 10px;
+    background-image: linear-gradient( to right,#3e3e3e ,rgb(253, 253, 254));
+    color:#dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.511);
+
+}
+.texto2 >p{
+    background-color: #3e3e3e;
+    color:#c5c2c2;
+    width: 30%;
+    position: absolute;
+    top: 40px;
+    padding: 10px;
+    left: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.516);
+
+}
+div>.ppp{
+    position: absolute;
+    display: inline;
+    right: 10px;
+    height: 200px;
+    bottom: 59px;
+    right: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.516);
+}
+.cont3 >a{
+    background-color: #64646494;
+    position: absolute;
+    right: 50%;
+    top: 160px;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px double #3e3e3e;
+    color: #c7c7c7;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.516);
+    transition: 0,3s;
+}
+.cont3 >a:hover{
+  background-color: #3e3e3e;
+}
+.link{
+    color: #454444;
+    padding: 8px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+    
+}
+footer{
+    text-align: center;
+}
+footer > h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #302f2f;
+    
+}
+footer >a:hover{
+    color: #0f0f0f;
+    background-color: #6464645d;
+}
+
+

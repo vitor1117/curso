@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseudo classes</title>
     <style>
-       div >p{
-        display: none;
-        display: ;
-       }
-       div:hover >p{
-        display: block;
-       }
+        .cube{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            animation: infinite;
+        }
+
 
     </style>
-</head>
-<body>
-    <h1>exemplos de hover</h1>
-    <p>passe o mouse sobre o texto abaixo</p>
-    <div>passe o mouse aqui
-        <p>acho</p>
-    </div>
     
+</head>
+<body> 
+    <div class="animation-container">
+        <div class="cube">
+            <div class="cube-face front">front</div> 
+            <div class="cube-face back">back</div>
+            <div class="cube-face right">right</div>
+            <div class="cube-face left">left</div>
+            <div class="cube-face top">top</div>
+            <div class="cube-face bottom">bottom</div>
+        </div>
+    </div>
+
     
 </body>
 </html>

@@ -87,31 +87,31 @@
                 <input placeholder="nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder id="mensagem">digite sua mensagem</textarea  >
+                <textarea class="campo-form" placeholder id="mensagem">digite sua mensagem</textarea>
             </div>
-             <button type="submit"class="botao">enviar whatsap</button>
+            <button type="submit" class="botao">enviar whatsap</button>
 
 
         </form>
     </section>
     <script>
-        function enviarwhats(event){
+        function enviarwhats(event) {
             event.preventdefault()
             const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById.value;('mensagem')
-        const telefone ='34618610981'
-        const texto = `ola me chamo ${nome}, ${mensagem}`
-        const msgformatada = encodeURIComponent {texto}
-        const url = `https://whatsa.me/${telefone}/?t=${msgformatada}`
-        window.open(url,'_blank')
+            const mensagem = document.getElementById.value; ('mensagem')
+            const telefone = '34618610981'
+            const texto = `ola me chamo ${nome}, ${mensagem}`
+            const msgformatada = encodeURIComponent { texto }
+            const url = `https://whatsa.me/${telefone}/?t=${msgformatada}`
+            window.open(url, '_blank')
 
         }
 
 
 
 
-    
-     
+
+
 
     </script>
 

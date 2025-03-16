@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="particulas"></div>
+
+
+
+    <nav class="navegaçao">
+        <ul class="menu">
+            <li>
+                <a class="menu-link" href="#">inicio</a>
+            </li>
+            <li>
+                <a class="menu-link" href="#">sobre</a>
+            </li>
+            <li>
+                <a class="menu-link" href="#">projetos</a>
+            </li>
+            <li>
+                <a class="menu-link" href="#">contato</a>
+            </li>
+
+
+        </ul>
+
+    </nav>
+    <main id="inicio" class="cabeçalho">
+        <img src="download.jpg" alt="" class="foto-perfil">
+        <h1>vitor freitas</h1>
+        <p class="cabeçalho-sub">desenvolvedor fronte end</p>
+
+
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus illum cumque
+                maiores cum excepturi rem nulla eaque assumenda, qui ut impedit reprehenderit provident. Non dignissimos
+                dolor iusto officiis aperiam amet.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulos">meus projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-car">
+                <img src="download.jpg" alt="" class="projetos-imagen">
+                <div class="caixa-textos">
+                    <h3 class="info-projetos">loja de carro</h3>
+                    <p class="paragrafo-projetos">lojas de carro online</p>
+                </div>
+            </div>
+
+            <div class="projetos-car">
+                <img src="download.jpg" alt="" class="projetos-imagen">
+                <div class="caixa-textos">
+                    <h3 class="info-projetos">loja de carro</h3>
+                    <p class="paragrafo-projetos">lojas de carro online</p>
+                </div>
+            </div>
+
+            <div class="projetos-car">
+                <img src="download.jpg" alt="" class="projetos-imagen">
+                <div class="caixa-textos">
+                    <h3 class="info-projetos">loja de carro</h3>
+                    <p class="paragrafo-projetos">lojas de carro online</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contatos">
+        <h2 class="contatos-titulo">entre em contato</h2>
+        <form class="fomulario-contatos" id="formulario" onsubmit="enviarwhats(event)">
+            <div class="grupo-form">
+                <input placeholder="nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder id="mensagem">digite sua mensagem</textarea  >
+            </div>
+             <button type="submit"class="botao">enviar whatsap</button>
+
+
+        </form>
+    </section>
+    <script>
+        function enviarwhats(event){
+            event.preventdefault()
+            const nome = document.getElementById('nome').value;
+        const mensagem = document.getElementById.value;('mensagem')
+        const telefone ='34618610981'
+        const texto = `ola me chamo ${nome}, ${mensagem}`
+        const msgformatada = encodeURIComponent {texto}
+        const url = `https://whatsa.me/${telefone}/?t=${msgformatada}`
+        window.open(url,'_blank')
+
+        }
+
+
+
+
+    
+     
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+ .liste-menu:hover::after{
+    width: 100%;
+
+
+ }
+    .liste-menu::after{
+        content: '';
+        height: 2px;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient( 90deg, rgb(255, 0, 242) , rgb(98, 15, 128));
+        transition: 0.3s;
+    
+    }
